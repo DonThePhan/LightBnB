@@ -1,1 +1,1 @@
-# LighthouseBnB
+# LightBnB
