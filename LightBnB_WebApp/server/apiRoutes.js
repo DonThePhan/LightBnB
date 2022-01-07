@@ -5,7 +5,7 @@ module.exports = function(router, database) {
       .then(properties => {
         res.send({ properties })
       })
-    .catch(e => {
+      .catch(e => {
       console.error(e);
       res.send(e)
     }); 
