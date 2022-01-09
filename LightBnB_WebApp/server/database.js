@@ -65,7 +65,7 @@ const addUser = function(user) {
     )
     .then((user) => {
       if (user && user.rows) {
-        return users.rows;
+        return user.rows;
       } else {
         return null;
       }
